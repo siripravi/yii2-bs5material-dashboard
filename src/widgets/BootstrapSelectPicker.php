@@ -1,15 +1,15 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
-use vasadibt\materialdashboard\assets\BootstrapSelectPickerAsset;
-use vasadibt\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\assets\BootstrapSelectPickerAsset;
+use siripravi\materialdashboard\helpers\Html;
 use yii\helpers\Json;
 use yii\web\JsExpression;
 
 /**
  * Class BootstrapSelectPicker
- * @package vasadibt\materialdashboard\widgets
+ * @package siripravi\materialdashboard\widgets
  */
 class BootstrapSelectPicker extends InputWidget
 {

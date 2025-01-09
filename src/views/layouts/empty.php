@@ -3,7 +3,7 @@
 /** @var \yii\web\View $this */
 /** @var string $content */
 
-use vasadibt\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\helpers\Html;
 
 ?>
 <?php $this->beginPage() ?>

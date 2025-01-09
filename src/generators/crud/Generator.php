@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace vasadibt\materialdashboard\generators\crud;
+namespace siripravi\materialdashboard\generators\crud;
 
 use spec\Prophecy\Doubler\Generator\Node\ReturnTypeNodeSpec;
 use yii\base\NotSupportedException;
@@ -17,7 +17,7 @@ use yii\helpers\Inflector;
 
 /**
  * Class Generator
- * @package vasadibt\materialdashboard\generators\crud
+ * @package siripravi\materialdashboard\generators\crud
  */
 class Generator extends GiiCrudGenerator
 {
@@ -31,21 +31,21 @@ class Generator extends GiiCrudGenerator
      */
     public $messageCategory = 'materialdashboard';
 
-    public $htmlHelperClass = 'vasadibt\materialdashboard\helpers\Html';
-    public $activeFormClass = 'vasadibt\materialdashboard\widgets\ActiveForm';
-    public $gridViewClass = 'vasadibt\materialdashboard\grid\GridView';
+    public $htmlHelperClass = 'siripravi\materialdashboard\helpers\Html';
+    public $activeFormClass = 'siripravi\materialdashboard\widgets\ActiveForm';
+    public $gridViewClass = 'siripravi\materialdashboard\grid\GridView';
     public $formBuilderClass = 'kartik\builder\Form';
-    public $cardWidgetClass = 'vasadibt\materialdashboard\widgets\Card';
+    public $cardWidgetClass = 'siripravi\materialdashboard\widgets\Card';
 
 
-    public $buttonDeleteWidgetClass = 'vasadibt\materialdashboard\widgets\buttons\Delete';
-    public $buttonBackWidgetClass = 'vasadibt\materialdashboard\widgets\buttons\Back';
-    public $buttonSubmitWidgetClass = 'vasadibt\materialdashboard\widgets\buttons\Submit';
-    public $buttonCreateWidgetClass = 'vasadibt\materialdashboard\widgets\buttons\Create';
+    public $buttonDeleteWidgetClass = 'siripravi\materialdashboard\widgets\buttons\Delete';
+    public $buttonBackWidgetClass = 'siripravi\materialdashboard\widgets\buttons\Back';
+    public $buttonSubmitWidgetClass = 'siripravi\materialdashboard\widgets\buttons\Submit';
+    public $buttonCreateWidgetClass = 'siripravi\materialdashboard\widgets\buttons\Create';
 
 
-    public $searchModelInterface = 'vasadibt\materialdashboard\interfaces\SearchModelInterface';
-    public $searchModelTrait = 'vasadibt\materialdashboard\traits\SearchModelTrait';
+    public $searchModelInterface = 'siripravi\materialdashboard\interfaces\SearchModelInterface';
+    public $searchModelTrait = 'siripravi\materialdashboard\traits\SearchModelTrait';
     public $spreadsheetBuilder = 'yii2tech\spreadsheet\Spreadsheet';
 
     public $skipGridFields = ['auth_key', 'password_hash', 'password_reset_token', 'verification_token', 'password', 'api_key', 'api_token'];

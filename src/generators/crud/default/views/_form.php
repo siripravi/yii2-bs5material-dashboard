@@ -1,7 +1,7 @@
 <?php
 
 /** @var yii\web\View $this */
-/** @var vasadibt\materialdashboard\generators\crud\Generator $generator */
+/** @var siripravi\materialdashboard\generators\crud\Generator $generator */
 
 use yii\helpers\StringHelper;
 
@@ -28,25 +28,25 @@ use <?= $generator->buttonSubmitWidgetClass ?>;
             '<?= $column->name ?>' => [
 <?php if ($generator->isForeignColumn($column) && ($table = $generator->getForeignTableSchema($column))): ?>
                 'type' => Form::INPUT_WIDGET,
-                'widgetClass' => \vasadibt\materialdashboard\widgets\SelectPicker<?= $column->allowNull ? 'Promted' : '' ?>::class,
+                'widgetClass' => \siripravi\materialdashboard\widgets\SelectPicker<?= $column->allowNull ? 'Promted' : '' ?>::class,
                 'options' => [
                     'items' => <?= $generator->getModelClass($table) ?>::collect()->pluck('<?= $generator->getTableNameAttribute($table) ?>', '<?= $table->primaryKey[0] ?>'),
                 ],
 <?php elseif ($generator->isEnum($column)): ?>
                 'type' => Form::INPUT_WIDGET,
-                'widgetClass' => \vasadibt\materialdashboard\widgets\SelectPicker<?= $column->allowNull ? 'Promted' : '' ?>::class,
+                'widgetClass' => \siripravi\materialdashboard\widgets\SelectPicker<?= $column->allowNull ? 'Promted' : '' ?>::class,
                 'options' => [
                     'items' => <?= $generator->modelClass ?>::<?= $generator->getEnumFunction($column)?>(),
                 ],
 <?php elseif ($column->dbType == 'datetime'): ?>
                 'type' => Form::INPUT_WIDGET,
-                'widgetClass' => \vasadibt\materialdashboard\widgets\DateTimePicker::class,
+                'widgetClass' => \siripravi\materialdashboard\widgets\DateTimePicker::class,
 <?php elseif ($column->dbType == 'date'): ?>
                 'type' => Form::INPUT_WIDGET,
-                'widgetClass' => \vasadibt\materialdashboard\widgets\DatePicker::class,
+                'widgetClass' => \siripravi\materialdashboard\widgets\DatePicker::class,
 <?php elseif ($column->dbType == 'tinyint(1)'): ?>
                 'type' => Form::INPUT_WIDGET,
-                'widgetClass' => \vasadibt\materialdashboard\widgets\BooleanPicker::class,
+                'widgetClass' => \siripravi\materialdashboard\widgets\BooleanPicker::class,
 <?php else: ?>
                 'type' => Form::INPUT_TEXT
 <?php endif ?>

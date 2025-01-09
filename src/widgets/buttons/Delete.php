@@ -1,6 +1,6 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets\buttons;
+namespace siripravi\materialdashboard\widgets\buttons;
 
 use Yii;
 use yii\db\ActiveRecordInterface;

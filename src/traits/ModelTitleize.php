@@ -1,6 +1,6 @@
 <?php
 
-namespace vasadibt\materialdashboard\traits;
+namespace siripravi\materialdashboard\traits;
 
 use yii\helpers\Inflector;
 use yii\helpers\StringHelper;

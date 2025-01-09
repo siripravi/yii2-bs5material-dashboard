@@ -1,14 +1,14 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
-use vasadibt\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\helpers\Html;
 use Yii;
 use yii\widgets\InputWidget;
 
 /**
  * Class ToggleButton
- * @package vasadibt\materialdashboard\widgets
+ * @package siripravi\materialdashboard\widgets
  */
 class ToggleButton extends InputWidget
 {

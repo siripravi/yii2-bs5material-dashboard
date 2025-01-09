@@ -6,7 +6,7 @@
  * Time: 10:41
  */
 
-namespace vasadibt\materialdashboard\grid;
+namespace siripravi\materialdashboard\grid;
 
 use yii\db\ActiveRecord;
 use yii\db\Expression;

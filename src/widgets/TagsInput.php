@@ -1,9 +1,9 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
-use vasadibt\materialdashboard\assets\BootstrapTagsInputAsset;
-use vasadibt\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\assets\BootstrapTagsInputAsset;
+use siripravi\materialdashboard\helpers\Html;
 use Yii;
 use yii\helpers\Json;
 use yii\web\JsExpression;
@@ -11,7 +11,7 @@ use yii\widgets\InputWidget;
 
 /**
  * Class TagsInput
- * @package vasadibt\materialdashboard\widgets
+ * @package siripravi\materialdashboard\widgets
  */
 class TagsInput extends InputWidget
 {

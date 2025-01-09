@@ -1,11 +1,11 @@
 <?php
 
-use vasadibt\materialdashboard\helpers\Html;
-use vasadibt\materialdashboard\widgets\ActiveForm;
-use vasadibt\materialdashboard\widgets\buttons\Button;
-use vasadibt\materialdashboard\widgets\buttons\Link;
-use vasadibt\materialdashboard\widgets\buttons\Submit;
-use vasadibt\materialdashboard\widgets\Card;
+use siripravi\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\widgets\ActiveForm;
+use siripravi\materialdashboard\widgets\buttons\Button;
+use siripravi\materialdashboard\widgets\buttons\Link;
+use siripravi\materialdashboard\widgets\buttons\Submit;
+use siripravi\materialdashboard\widgets\Card;
 
 /** @var yii\web\View $this */
 /** @var yii\bootstrap\ActiveForm $form */
@@ -21,7 +21,7 @@ JS;
 $this->registerJs($js);
 
 
-$bundle = Yii::$app->assetManager->getBundle(\vasadibt\materialdashboard\assets\MaterialAsset::class);
+$bundle = Yii::$app->assetManager->getBundle(\siripravi\materialdashboard\assets\MaterialAsset::class);
 
 ?>
 <div class="page-header login-page header-filter" filter-color="black" style="background-image: url('<?= $bundle->baseUrl ?>/img/login.jpg'); background-size: cover; background-position: top center;">

@@ -4,7 +4,7 @@ use yii\helpers\Inflector;
 use yii\helpers\StringHelper;
 
 /** @var yii\web\View $this */
-/** @var vasadibt\materialdashboard\generators\crud\Generator $generator */
+/** @var siripravi\materialdashboard\generators\crud\Generator $generator */
 
 echo "<?php\n";
 
@@ -28,20 +28,20 @@ $this->params['breadcrumbs'][] = ($this->title = $searchModel::titleList());
         'body' => <?= StringHelper::basename($generator->gridViewClass) ?>::widget([
             'filterModel' => $searchModel,
             'columns' => [
-                //['class' => 'vasadibt\materialdashboard\grid\CheckboxColumn'],
-                //['class' => 'vasadibt\materialdashboard\grid\SerialColumn'],
-                ['class' => 'vasadibt\materialdashboard\grid\ActionColumn'],
+                //['class' => 'siripravi\materialdashboard\grid\CheckboxColumn'],
+                //['class' => 'siripravi\materialdashboard\grid\SerialColumn'],
+                ['class' => 'siripravi\materialdashboard\grid\ActionColumn'],
 <?php foreach ($generator->getTableSchema()->columns as $column): ?>
 <?php if($column->isPrimaryKey || in_array($column->name, $generator->skipGridFields)) continue; ?>
                 [
 <?php if ($generator->isForeignColumn($column) || $generator->isEnum($column)): ?>
-                    'class' => 'vasadibt\materialdashboard\grid\ListColumn',
+                    'class' => 'siripravi\materialdashboard\grid\ListColumn',
 <?php elseif ($column->dbType == 'date' || $column->dbType == 'datetime'): ?>
-                    'class' => 'vasadibt\materialdashboard\grid\DateRangeColumn',
+                    'class' => 'siripravi\materialdashboard\grid\DateRangeColumn',
 <?php elseif ($column->dbType == 'tinyint(1)'): ?>
-                    'class' => 'vasadibt\materialdashboard\grid\BooleanColumn',
+                    'class' => 'siripravi\materialdashboard\grid\BooleanColumn',
 <?php else: ?>
-                    'class' => 'vasadibt\materialdashboard\grid\DataColumn',
+                    'class' => 'siripravi\materialdashboard\grid\DataColumn',
 <?php endif ?>
                     'attribute' => '<?= $column->name ?>',
 <?php if(($format = $generator->generateColumnFormat($column)) !== 'text'): ?>

@@ -1,10 +1,10 @@
 <?php
 
-namespace vasadibt\materialdashboard\grid;
+namespace siripravi\materialdashboard\grid;
 
 class ListColumn extends DataColumn
 {
-    public $filterType = \vasadibt\materialdashboard\widgets\BootstrapSelectPicker::class;
+    public $filterType = \siripravi\materialdashboard\widgets\BootstrapSelectPicker::class;
     public $filterWidgetOptions = ['prompt' => 'Mind'];
     public $items = [];
 

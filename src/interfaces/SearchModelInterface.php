@@ -1,6 +1,6 @@
 <?php
 
-namespace vasadibt\materialdashboard\interfaces;
+namespace siripravi\materialdashboard\interfaces;
 
 use yii\data\DataProviderInterface;
 use yii\db\QueryInterface;
@@ -8,7 +8,7 @@ use yii\web\Request;
 
 /**
  * Interface SearchModelInterface
- * @package vasadibt\materialdashboard\interfaces
+ * @package siripravi\materialdashboard\interfaces
  *
  * @method self filterQuery(QueryInterface $query)  / optional
  * @method array autoFilters()                      / optional

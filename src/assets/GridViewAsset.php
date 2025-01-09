@@ -1,17 +1,17 @@
 <?php
 
 
-namespace vasadibt\materialdashboard\assets;
+namespace siripravi\materialdashboard\assets;
 
 use yii\web\AssetBundle;
 
 /**
  * Class GridViewAsset
- * @package vasadibt\materialdashboard\assets
+ * @package siripravi\materialdashboard\assets
  */
 class GridViewAsset extends AssetBundle
 {
-    public $sourcePath = '@vasadibt/materialdashboard/assets/grid-view';
+    public $sourcePath = '@siripravi/materialdashboard/assets/grid-view';
     public $css = [
         'grid-view.css',
     ];

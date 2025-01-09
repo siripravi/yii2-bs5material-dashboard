@@ -1,16 +1,16 @@
 <?php
 
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
 use Yii;
-use yii\bootstrap4\LinkPager as YiiBootstrap4LinkPager;
+use yii\bootstrap5\LinkPager as Yiibootstrap5LinkPager;
 
 /**
  * Class LinkPager
- * @package vasadibt\materialdashboard\widgets
+ * @package siripravi\materialdashboard\widgets
  */
-class LinkPager extends YiiBootstrap4LinkPager
+class LinkPager extends Yiibootstrap5LinkPager
 {
     use WidgetTrait;
 

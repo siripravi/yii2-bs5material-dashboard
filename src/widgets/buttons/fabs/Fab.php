@@ -1,8 +1,8 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets\buttons\fabs;
+namespace siripravi\materialdashboard\widgets\buttons\fabs;
 
-use vasadibt\materialdashboard\widgets\buttons\Link;
+use siripravi\materialdashboard\widgets\buttons\Link;
 
 class Fab extends Link
 {

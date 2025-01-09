@@ -1,6 +1,6 @@
 <?php
 
-use vasadibt\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\helpers\Html;
 
 ?>
 <footer class="footer">

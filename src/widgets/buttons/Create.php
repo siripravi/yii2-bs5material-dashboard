@@ -1,8 +1,8 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets\buttons;
+namespace siripravi\materialdashboard\widgets\buttons;
 
-use vasadibt\materialdashboard\interfaces\ModelTitleizeInterface;
+use siripravi\materialdashboard\interfaces\ModelTitleizeInterface;
 use Yii;
 use yii\helpers\Inflector;
 use yii\helpers\StringHelper;

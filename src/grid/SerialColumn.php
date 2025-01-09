@@ -6,11 +6,11 @@
  * Time: 9:04
  */
 
-namespace vasadibt\materialdashboard\grid;
+namespace siripravi\materialdashboard\grid;
 
 /**
  * Class SerialColumn
- * @package vasadibt\materialdashboard\grid
+ * @package siripravi\materialdashboard\grid
  */
 class SerialColumn extends \kartik\grid\SerialColumn
 {

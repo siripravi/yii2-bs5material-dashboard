@@ -6,18 +6,18 @@
  * Time: 7:44
  */
 
-namespace vasadibt\materialdashboard\grid;
+namespace siripravi\materialdashboard\grid;
 
-use vasadibt\materialdashboard\helpers\Html;
-use vasadibt\materialdashboard\interfaces\SearchModelInterface;
-use vasadibt\materialdashboard\widgets\buttons\Export;
-use vasadibt\materialdashboard\widgets\buttons\Reset;
+use siripravi\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\interfaces\SearchModelInterface;
+use siripravi\materialdashboard\widgets\buttons\Export;
+use siripravi\materialdashboard\widgets\buttons\Reset;
 use Yii;
 use yii\data\DataProviderInterface;
 
 /**
  * Class GridView
- * @package vasadibt\materialdashboard\grid
+ * @package siripravi\materialdashboard\grid
  */
 class GridView extends \kartik\grid\GridView
 {

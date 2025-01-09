@@ -1,14 +1,14 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
-use vasadibt\materialdashboard\assets\BootstrapDateTimePickerAsset;
+use siripravi\materialdashboard\assets\BootstrapDateTimePickerAsset;
 use yii\helpers\Json;
 use yii\web\JsExpression;
 
 /**
  * Class BootstrapDateTimePicker
- * @package vasadibt\materialdashboard\widgets
+ * @package siripravi\materialdashboard\widgets
  */
 class BootstrapDateTimePicker extends InputWidget
 {

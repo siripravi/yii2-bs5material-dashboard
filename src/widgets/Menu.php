@@ -1,16 +1,16 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
-use vasadibt\materialdashboard\assets\MaterialAsset;
-use vasadibt\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\assets\MaterialAsset;
+use siripravi\materialdashboard\helpers\Html;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
 
 /**
  * Class Menu
- * @package vasadibt\materialdashboard\widgets
+ * @package siripravi\materialdashboard\widgets
  */
 class Menu extends \yii\widgets\Menu
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
 use yii\base\Widget;
 

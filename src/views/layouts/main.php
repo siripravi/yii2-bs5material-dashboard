@@ -17,7 +17,7 @@ Yii::$app->material->register($this);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php $this->registerCsrfMetaTags() ?>
-    <title><?= \vasadibt\materialdashboard\helpers\Html::encode($this->title) ?></title>
+    <title><?= \siripravi\materialdashboard\helpers\Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
 <body>

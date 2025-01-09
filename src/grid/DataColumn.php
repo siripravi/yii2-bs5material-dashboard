@@ -1,6 +1,6 @@
 <?php
 
-namespace vasadibt\materialdashboard\grid;
+namespace siripravi\materialdashboard\grid;
 
 class DataColumn extends \kartik\grid\DataColumn
 {

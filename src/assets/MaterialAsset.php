@@ -1,6 +1,6 @@
 <?php
 
-namespace vasadibt\materialdashboard\assets;
+namespace siripravi\materialdashboard\assets;
 
 use yii\web\AssetBundle as BaseMaterialAsset;
 use yii\web\YiiAsset;
@@ -11,7 +11,7 @@ use yii\web\YiiAsset;
  */
 class MaterialAsset extends BaseMaterialAsset
 {
-    public $sourcePath = '@vasadibt/materialdashboard/assets/material-new';
+    public $sourcePath = '@siripravi/materialdashboard/assets/material-new';
 
     public $css = [
         'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons',

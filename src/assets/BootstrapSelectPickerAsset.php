@@ -1,16 +1,16 @@
 <?php
 
-namespace vasadibt\materialdashboard\assets;
+namespace siripravi\materialdashboard\assets;
 
 use yii\web\AssetBundle;
 
 /**
  * Class BootstrapSelectPickerAsset
- * @package vasadibt\materialdashboard\assets
+ * @package siripravi\materialdashboard\assets
  */
 class BootstrapSelectPickerAsset extends AssetBundle
 {
-    public $sourcePath = '@vasadibt/materialdashboard/assets/bootstrapselectpicker';
+    public $sourcePath = '@siripravi/materialdashboard/assets/bootstrapselectpicker';
 
     public $js = [
         'bootstrap-selectpicker.js',

@@ -1,13 +1,13 @@
 <?php
 
-namespace vasadibt\materialdashboard\helpers;
+namespace siripravi\materialdashboard\helpers;
 
 use Yii;
 use yii\data\DataProviderInterface;
 use yii\helpers\ArrayHelper;
 use yii\web\User;
 
-class Html extends \yii\bootstrap4\Html
+class Html extends \yii\bootstrap5\Html
 {
     /**
      * Options add permission checker

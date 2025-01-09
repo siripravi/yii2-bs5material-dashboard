@@ -1,8 +1,8 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
-use vasadibt\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\helpers\Html;
 use yii\helpers\ArrayHelper;
 use yii\widgets\Pjax;
 

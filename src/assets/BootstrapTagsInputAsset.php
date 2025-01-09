@@ -1,16 +1,16 @@
 <?php
 
-namespace vasadibt\materialdashboard\assets;
+namespace siripravi\materialdashboard\assets;
 
 use yii\web\AssetBundle;
 
 /**
  * Class BootstrapTagsInputAsset
- * @package vasadibt\materialdashboard\assets
+ * @package siripravi\materialdashboard\assets
  */
 class BootstrapTagsInputAsset extends AssetBundle
 {
-    public $sourcePath = '@vasadibt/materialdashboard/assets/bootstraptagsinput';
+    public $sourcePath = '@siripravi/materialdashboard/assets/bootstraptagsinput';
 
     public $js = [
         'bootstrap-tagsinput.js',

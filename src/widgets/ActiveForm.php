@@ -1,6 +1,6 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
 use yii\base\Model;
 use kartik\form\ActiveForm as KartikActiveForm;
@@ -8,7 +8,7 @@ use yii\helpers\ArrayHelper;
 
 /**
  * Class ActiveForm
- * @package vasadibt\materialdashboard\widgets
+ * @package siripravi\materialdashboard\widgets
  *
  * @method ActiveField field(Model $model, \string $attribute, array $options = [])
  */
@@ -20,7 +20,7 @@ class ActiveForm extends KartikActiveForm
      * @var string the default field class name when calling [[field()]] to create a new field.
      * @see fieldConfig
      */
-    public $fieldClass = 'vasadibt\materialdashboard\widgets\ActiveField';
+    public $fieldClass = 'siripravi\materialdashboard\widgets\ActiveField';
     /**
      * @var string the CSS class that is added to a field container when the associated attribute has validation error.
      */

@@ -1,10 +1,10 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
 /**
  * Class DetailView
- * @package vasadibt\materialdashboard\widgets
+ * @package siripravi\materialdashboard\widgets
  */
 class DetailView extends \yii\widgets\DetailView
 {

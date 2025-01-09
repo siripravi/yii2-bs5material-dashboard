@@ -1,15 +1,15 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
 use kartik\form\ActiveForm;
-use vasadibt\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\helpers\Html;
 use yii\helpers\ArrayHelper;
 use kartik\form\ActiveField as KartikActiveField;
 
 /**
  * Class ActiveField
- * @package vasadibt\materialdashboard\widgets
+ * @package siripravi\materialdashboard\widgets
  *
  * @property ActiveForm $form
  */

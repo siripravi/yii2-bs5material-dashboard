@@ -5,12 +5,12 @@
 /* @var $message string */
 /* @var $exception Exception */
 
-use vasadibt\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\helpers\Html;
 
 $this->title = $name;
 $statusCode = $exception instanceof \yii\web\HttpException ? $exception->statusCode : 500;
 
-$bundle = Yii::$app->assetManager->getBundle(\vasadibt\materialdashboard\assets\MaterialAsset::class);
+$bundle = Yii::$app->assetManager->getBundle(\siripravi\materialdashboard\assets\MaterialAsset::class);
 
 ?>
 <div class="page-header error-page header-filter" style="background-image: url('<?= $bundle->baseUrl . '/img/clint-mckoy.jpg' ?>')">

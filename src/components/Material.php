@@ -1,6 +1,6 @@
 <?php
 
-namespace vasadibt\materialdashboard\components;
+namespace siripravi\materialdashboard\components;
 
 use yii\base\BootstrapInterface;
 use yii\base\Component;

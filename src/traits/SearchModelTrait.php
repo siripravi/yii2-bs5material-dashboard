@@ -1,10 +1,10 @@
 <?php
 
-namespace vasadibt\materialdashboard\traits;
+namespace siripravi\materialdashboard\traits;
 
 use http\Exception\RuntimeException;
-use vasadibt\materialdashboard\grid\DateRangeColumn;
-use vasadibt\materialdashboard\interfaces\SearchModelInterface;
+use siripravi\materialdashboard\grid\DateRangeColumn;
+use siripravi\materialdashboard\interfaces\SearchModelInterface;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use yii\data\DataProviderInterface;

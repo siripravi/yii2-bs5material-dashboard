@@ -1,8 +1,8 @@
 <?php
 
-namespace vasadibt\materialdashboard\grid;
+namespace siripravi\materialdashboard\grid;
 
-use vasadibt\materialdashboard\widgets\BooleanPickerPromted;
+use siripravi\materialdashboard\widgets\BooleanPickerPromted;
 
 class BooleanColumn extends DataColumn
 {

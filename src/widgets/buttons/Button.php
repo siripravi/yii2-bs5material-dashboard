@@ -1,9 +1,9 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets\buttons;
+namespace siripravi\materialdashboard\widgets\buttons;
 
-use vasadibt\materialdashboard\helpers\Html;
-use vasadibt\materialdashboard\widgets\BaseWidget;
+use siripravi\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\widgets\BaseWidget;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
 

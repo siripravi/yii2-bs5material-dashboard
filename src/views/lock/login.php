@@ -1,7 +1,7 @@
 <?php
 
-use vasadibt\materialdashboard\helpers\Html;
-use vasadibt\materialdashboard\widgets\ActiveForm;
+use siripravi\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\widgets\ActiveForm;
 
 /** @var yii\web\View $this */
 /** @var yii\bootstrap\ActiveForm $form */
@@ -16,7 +16,7 @@ setTimeout(function() {
 JS;
 $this->registerJs($js);
 
-$bundle = Yii::$app->assetManager->getBundle(\vasadibt\materialdashboard\assets\MaterialAsset::class);
+$bundle = Yii::$app->assetManager->getBundle(\siripravi\materialdashboard\assets\MaterialAsset::class);
 
 ?>
 <div class="page-header lock-page header-filter" style="background-image: url('<?= $bundle->baseUrl ?>/img/lock.jpg')">

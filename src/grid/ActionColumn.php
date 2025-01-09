@@ -1,8 +1,8 @@
 <?php
 
-namespace vasadibt\materialdashboard\grid;
+namespace siripravi\materialdashboard\grid;
 
-use vasadibt\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\helpers\Html;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;

@@ -1,6 +1,6 @@
 <?php
 
-namespace vasadibt\materialdashboard\interfaces;
+namespace siripravi\materialdashboard\interfaces;
 
 interface ModelTitleizeInterface
 {

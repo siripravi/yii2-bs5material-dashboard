@@ -1,11 +1,11 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
-use vasadibt\materialdashboard\helpers\Html;
+use siripravi\materialdashboard\helpers\Html;
 use yii\base\InvalidConfigException;
-use yii\bootstrap4\Nav;
-use yii\bootstrap4\Tabs;
+use yii\bootstrap5\Nav;
+use yii\bootstrap5\Tabs;
 use yii\helpers\ArrayHelper;
 
 

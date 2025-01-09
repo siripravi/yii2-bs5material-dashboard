@@ -1,6 +1,6 @@
 <?php
 
-namespace vasadibt\materialdashboard\widgets;
+namespace siripravi\materialdashboard\widgets;
 
 class DateTimePicker extends BootstrapDateTimePicker
 {
