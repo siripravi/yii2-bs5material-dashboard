@@ -1,5 +1,5 @@
 {
-  "name": "siripravi/yii2-material-dashboard",
+  "name": "siripravi/yii2-bs5material-dashboard",
   "description": "Complete dashboard module with login and lock page with material designed template",
   "type": "yii2-extension",
   "keywords": [
@@ -8,8 +8,7 @@
     "material",
     "dashboard"
   ],
-  "homepage": "https://github.com/  "name": "siripravi/yii2-material-dashboard",
-/yii2-material-dashboard",
+  "homepage": "https://github.com/siripravi/yii2-bs5material-dashboard",
   "license": "MIT",
   "authors": [
     {
